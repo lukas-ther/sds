@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/react-vite";
 import { IconMenu } from "icons";
 import {
   Button,
@@ -110,7 +110,7 @@ export const StoryDialogBodyBleed: Story = {
           <Dialog>
             <DialogTitle>Open Dialog</DialogTitle>
             <DialogDescription>
-              The refund will be reflected in the customer’s bank account 2 to 3
+              The refund will be reflected in the customer's bank account 2 to 3
               business days after processing.
             </DialogDescription>
             <DialogBody bleed={true}>

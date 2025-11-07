@@ -13,6 +13,7 @@ const sharedProps = {
   }),
   size: figma.enum("Size", {
     Small: "small",
+    Medium: "medium",
   }),
   isDisabled: figma.enum("State", {
     Disabled: true,
